@@ -51,7 +51,7 @@
  
 - name: copy war file
   copy:
-    src: {{ warfile }}
+    src: "{{ warfile }}"
     dest: /usr/share/tomcat/webapps/java-tomcat-maven-example.war
     owner: tomcat
     group: tomcat
