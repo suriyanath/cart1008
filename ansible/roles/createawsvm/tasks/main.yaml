@@ -1,7 +1,7 @@
 ---
 - name: adding variables
   include_vars:
-    file: myvars.yaml
+    file: myvars.yml
 - name: Create a AWS Keypair
   ec2_key:
     region: "{{ awsregion }}"
